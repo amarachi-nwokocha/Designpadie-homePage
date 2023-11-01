@@ -17,18 +17,18 @@ const Values = () => {
         </p>
       </div>
 
-      <div className="h-60 grid grid-cols-1 w-4/12 mb-36 sm:py-4 font-display">
-      <div className="focus:border-l-4 p-5 focus:border-[#FF9A2B] snap-start">
+      <div className=" border-l-4  grid grid-cols-1 w-4/12 mb-36 sm:py-4 font-display">
+      <div className="hover:border-l-4 p-5 hover:cursor-pointer hover:border-[#FF9A2B] snap-start">
         <h3 className="text-left font-bold text-xl leading-9 "> Growth and Skill Development</h3>
         <p className="text-left lead mt-4 text-[#514D4D] text-sm leading-7">Through the process of participating, receiving feedback, and pushing your creative boundaries, you'll enhance your skills, expand your design repertoire, and discover new techniques.</p>
         <p className="text-[#514D4D] text-left text-sm mt-3">Learn more</p>
       </div>
-      <div className="focus:border-l-4 p-5 focus:border-[#FF9A2B]">
+      <div className="hover:border-[#FF9A2B] hover:border-l-4 hover:cursor-pointer p-5 ">
         <h3 className="text-left font-bold text-xl leading-9 ">Growth and Skill Development</h3>
         <p className="text-left text-[#514D4D] text-sm leading-7">Through the process of participating, receiving feedback, and pushing your creative boundaries, you'll enhance your skills, expand your design repertoire, and discover new techniques.</p>
         <p className="text-[#514D4D] text-left text-sm mt-3">Learn more</p>
       </div>
-      <div className="focus:border-l-4 p-5 focus:border-[#FF9A2B]">
+      <div className="hover:border-[#FF9A2B] hover:border-l-4 hover:cursor-pointer p-5 ">
         <h3 className="text-left font-bold text-xl leading-9 ">Growth and Skill Development</h3>
         <p className="text-left text-[#514D4D] text-sm leading-7">Through the process of participating, receiving feedback, and pushing your creative boundaries, you'll enhance your skills, expand your design repertoire, and discover new techniques.</p>
         <p className="text-[#514D4D] text-left text-sm mt-3">Learn more</p>
@@ -36,9 +36,6 @@ const Values = () => {
       </div>
     </div>
     <div >
-      <h1>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore
-      </h1>
     </div>
     </div>
   );
