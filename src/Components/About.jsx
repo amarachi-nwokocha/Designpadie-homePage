@@ -3,8 +3,10 @@ import React from "react";
 const About = () => {
   return (
     <div className="px-6  mt-10">
-      <h2 className="text-center py-5 font-bold text-xl leading-9 font-display">About Our Community</h2>
-      <p className="text-left font-display">
+      <h2 className="text-center py-5 font-bold text-xl leading-9 font-display">
+        About Our Community
+      </h2>
+      <p className="text-left font-display md:px-10 lg:px-20">
         We believe in the transformative power of design and its ability to
         shape the world around us. Our platform provides a vibrant community
         where designers of all levels can come together, exchange ideas, and

@@ -47,11 +47,11 @@ const Bod = () => {
           <button className="text-[#FF9A2B] border-[#FF9A2B] border-2 px-4 py-1 rounded-md hover:bg-[#FF9A2B] hover:text-white">
             Join our community
           </button>
-          <i
+          {/* <i
             className="fa-solid fa-bars fa-flip text-3xl cursor-pointer md:hidden"
             onClick={() => onToggleMenu(this)}
             name="menu"
-          ></i>
+          ></i> */}
 
           <ion-icon></ion-icon>
         </div>

@@ -3,8 +3,8 @@ import eclipse from "../assets/Ellipse1.svg";
 import image2 from "../assets/image2.svg";
 const Feedback = () => {
   return (
-    <div className="flex justify-around ">
-      <div className="grid gap-4 grid-cols-2">
+    <div className="flex flex-col md:flex-row md:justify-around ">
+      <div className="grid gap-4 grid-cols-1 md:grid-cols-2">
         {/* card 1 */}
         <div className="p-4 w-72">
           <p className="text-md text-[#514D4D]">

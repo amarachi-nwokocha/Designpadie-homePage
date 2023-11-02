@@ -11,9 +11,9 @@ function App() {
 
   return (
     <div className="font-display" >
-    <Bod />
+    {/* <Bod /> */}
     <Hero />
-    <HeroImg />
+    {/* <HeroImg /> */}
     <About />
     <Values />
     <Feedback />
