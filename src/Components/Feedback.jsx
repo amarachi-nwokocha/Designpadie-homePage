@@ -3,7 +3,7 @@ import eclipse from "../assets/Ellipse1.svg";
 import image2 from "../assets/image2.svg";
 const Feedback = () => {
   return (
-    <div className="flex flex-col-reverse ml-20 md:ml-0 md:flex-row md:justify-around ">
+    <div className="flex flex-col-reverse ml-6 md:ml-0 md:flex-row md:justify-around ">
       <div className="grid gap-4 mt-14 md:mt-0 grid-cols-1 md:grid-cols-2">
         {/* card 1 */}
         <div className="p-4 w-72">

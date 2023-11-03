@@ -2,7 +2,7 @@ import React from "react";
 
 const Values = () => {
   return (
-    <div className="flex justify-around pl-10 md:pl-0 ">
+    <div className="flex justify-around pl-6 md:pl-0 ">
       
     <div className="mt-20 block px-3 text-center md:flex md:flex-row md:justify-around sm:flex-col  md:items-center">
       <div className="max-w-md" >
