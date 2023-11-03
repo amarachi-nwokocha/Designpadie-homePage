@@ -5,7 +5,7 @@ import {FaBarsStaggered} from 'react-icons/fa6'
 const Navbar = () => {
   const [nav, setNav] = useState(false)
     const togglenav =() =>{
-      setNav(true)
+      setNav(!nav);
       console.log(nav);
     } 
 
@@ -36,11 +36,15 @@ const Navbar = () => {
             Join our community
           </button>
           
-        <FaBarsStaggered onClick={togglenav} size={20} className="" ></FaBarsStaggered>
+        <FaBarsStaggered onClick={togglenav} size={20} className="md:hidden" ></FaBarsStaggered>
         </div>
         {/* mobile nav starts */}
-        <div className="absolute bg-[#FF9A2B] flex-col justify-center rounded-lg   min-h-[50vh] right-0 top-[9%]  w-44 md:hidden items-center px-5 ">
-          <ul className=" flex md:flex-row flex-col pt-4 text-white  md:items-center md:gap-[4vw] gap-8">
+        <div className=
+        {nav ?
+        "absolute bg-[#FF9A2B] flex-col justify-center rounded-lg ease-in   min-h-[50vh] right-0 top-[9%]  w-44 md:hidden items-center px-5 " 
+        : "hidden"}
+        >
+          <ul  className= "flex md:flex-row flex-col pt-4 text-white  md:items-center md:gap-[4vw] gap-8">
             <li>
               <a className="hover:text-[#FF9A2B]" href="">Home</a>
             </li>
