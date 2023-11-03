@@ -3,8 +3,8 @@ import eclipse from "../assets/Ellipse1.svg";
 import image2 from "../assets/image2.svg";
 const Feedback = () => {
   return (
-    <div className="flex flex-col md:flex-row md:justify-around ">
-      <div className="grid gap-4 grid-cols-1 md:grid-cols-2">
+    <div className="flex flex-col-reverse ml-20 md:ml-0 md:flex-row md:justify-around ">
+      <div className="grid gap-4 mt-14 md:mt-0 grid-cols-1 md:grid-cols-2">
         {/* card 1 */}
         <div className="p-4 w-72">
           <p className="text-md text-[#514D4D]">
@@ -91,7 +91,7 @@ const Feedback = () => {
         </div>
       </div>
       <div>
-        <h2 className="font-bold text-2xl mt-56">Designers review  about Design paddies</h2>
+        <h2 className="font-bold text-2xl mb-10 md:mb-0 md:mt-56">Designers review  about Design paddies</h2>
         <p className="pr-10">Hear people speak about life changing moments with us</p>
       </div>
     </div>
