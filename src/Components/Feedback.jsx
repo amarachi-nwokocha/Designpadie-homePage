@@ -3,10 +3,10 @@ import eclipse from "../assets/Ellipse1.svg";
 import image2 from "../assets/image2.svg";
 const Feedback = () => {
   return (
-    <div className="flex flex-col-reverse ml-6 md:ml-0 md:flex-row md:justify-around ">
-      <div className="grid gap-4 mt-14 md:mt-0 grid-cols-1 md:grid-cols-2">
+    <div className="flex flex-col-reverse  ml-6 md:ml-0  lg:flex-row md:justify-around ">
+      <div className="grid gap-96 md:gap-4 snap-x mt-14 md:mt-0 grid-cols-4 overflow-auto  md:grid-cols-2">
         {/* card 1 */}
-        <div className="p-4 w-72">
+        <div className="p-4 snap-start mx-10 md:mx-0 w-72">
           <p className="text-md text-[#514D4D]">
             “Participating in the design contest on was a game-changer for my
             career. The exposure and recognition I received opened doors to
@@ -27,7 +27,7 @@ const Feedback = () => {
           </div>
         </div>
         {/* card 2 */}
-        <div className="p-4 w-72">
+        <div className="p-4 snap-start w-72">
           <p className="text-md text-[#514D4D]">
             “Participating in the design contest on was a game-changer for my
             career. The exposure and recognition I received opened doors to
@@ -48,7 +48,7 @@ const Feedback = () => {
           </div>
         </div>
         {/* card 3 */}
-        <div className="p-4 w-72">
+        <div className="p-4 snap-start w-72">
           <p className="text-md text-[#514D4D]" >
             “Participating in the design contest on was a game-changer for my
             career. The exposure and recognition I received opened doors to
@@ -69,7 +69,7 @@ const Feedback = () => {
           </div>
         </div>
         {/* card 4 */}
-        <div className="p-4 w-72">
+        <div className="p-4 snap-center w-72">
           <p className="text-md text-[#514D4D]" >
             “Participating in the design contest on was a game-changer for my
             career. The exposure and recognition I received opened doors to
@@ -90,8 +90,8 @@ const Feedback = () => {
           </div>
         </div>
       </div>
-      <div>
-        <h2 className="font-bold text-2xl mb-10 md:mb-0 md:mt-56">Designers review  about Design paddies</h2>
+      <div className="mb-10 lg:mb-0 md:mt-56">
+        <h2 className="font-bold text-2xl">Designers review  about Design paddies</h2>
         <p className="pr-10">Hear people speak about life changing moments with us</p>
       </div>
     </div>
